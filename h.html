@@ -1,0 +1,50 @@
+
+<!doctype>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title >dating website1</title>
+	</head>
+	<body text=red>
+		<h1 style="color:black">Please Enter Your Details For Dating Website </h1>
+		<form name="reg " method="get" action="/action_page.php">
+			<fieldset>
+				<legend>Your Face</legend>
+					Your Image&nbsp;<input type="file" name="myFile"><br/>
+					Image preview: <br/>
+			</fieldset>
+
+
+			<fieldset>
+				<legend>Your general details</legend>
+					Name<input type="text" name="fname" placeholder="example@name"><br/>
+					Gender&nbsp;&nbsp;;<input type="radio" name="gender" id="gender" value="Male" >Male
+					<input type="radio" name="gender" id="gender" value="Female" >Female<br/>
+					Age&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="quantity" min="1" max="100"><br/>
+					Date of birth&nbsp;&nbsp;<input type="date" name="bday"> <input type="submit"><br/>
+					Your favourite colour<input id="background-color" type="color" /><br/>
+					Your Country<input type="text" id="country" name="country" maxlength="20" size=""><br/>
+
+			</fieldset>
+
+			<fieldset>
+				<legend>Your Indicators</legend>
+				<label>short<input type="range" min="1" max="10">tall</label><br/>
+				<label>poor<input type="range" min="1" max="10">rich</label>
+			</fieldset>
+
+			<fieldset>
+				<legend>Your Contact Information</legend>
+					Email&nbsp;&nbsp;<input type="text" id="email" name="email" maxlength="20" size=""><br/><br/>
+					Contact<input type="text" id="contact" name="contact" maxlength="10" size=""><br/><br/>
+					Address<textarea rows="2" column="100" name="address" id="adress"></textarea><br/><br/>
+					Method to contact you<input type="radio" name="method" id="method" value="email" >email
+					<input type="radio" name="method" id="method" value="whatsapp " >whatsapp
+					 <input type="radio" name="method" id="method" value="in-app chat" >in-app chat
+
+			</fieldset>
+			<input type="submit" name="submit" id="submit" value="submit" onClick="www.google.com">
+		</form>
+	</body>
+
+</html>
